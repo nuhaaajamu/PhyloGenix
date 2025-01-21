@@ -79,7 +79,7 @@ if __name__ == "__main__":
     sequences = parse_fasta_file(selected_fasta_file)
     sequence_ids, distance_matrix = calculate_distance_matrix(sequences)
 
-    # Initialize the class to be able to create the tree.
+    # Initialize class to be able to create the tree.
     constructor = DistanceTreeConstructor()
 
     # _DistanceMatrix is required for DistanceTreeConstructor in Biopython.
