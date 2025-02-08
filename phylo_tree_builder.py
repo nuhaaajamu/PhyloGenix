@@ -1,6 +1,7 @@
-from Bio import SeqIO
+from Bio import SeqIO, Phylo
 from Bio.Align import PairwiseAligner
 from Bio.Phylo.TreeConstruction import DistanceTreeConstructor, _DistanceMatrix
+import matplotlib.pyplot as plt
 
 
 def parse_fasta_file(file_path):
@@ -32,33 +33,44 @@ def calculate_distance_matrix(parsed_sequences):
     # Generate a lower triangular matrix of pairwise distances for compatibility with DistanceTreeConstructor.
     for i in range(id_num):
         row = []
-
-        # Only calculate the distances for when j is <= i.
         for j in range (i + 1):
             if i == j:
-
                 # The distance of a sequence to itself is always zero.
                 row.append(0.0)
             else:
                 seq_one = parsed_sequences[seq_ids[i]]
                 seq_two = parsed_sequences[seq_ids[j]]
 
-                # Pairs of sequences are aligned and a number is assigned.
-                # This is based on number of matches, mismatches, and gaps.
-                alignment = seq_aligner.align(seq_one, seq_two)
+                try:
+                    # Align the two sequences and determine a similarity score.
+                    alignment = seq_aligner.align(seq_one, seq_two)
+                    score = alignment.score
+                    max_len = max(len(seq_one), len(seq_two))
 
-                # The numerical value that was previously scored is retrieved.
-                score = alignment.score
+                    # Convert alignment score to an evolutionary distance.
+                    pairwise_distance = max_len - score
+                    row.append(pairwise_distance)
 
-                max_len = max(len(seq_one), len(seq_two))
+                except Exception as e:
+                    print(f"Error during sequence alignment between {seq_ids[i]} and {seq_ids[j]}: {e}")
+                    return None, None
 
-                # Determine evolutionary distance between sequences
-                pairwise_distance = max_len - score
-
-                row.append(pairwise_distance)
         lower_triangular_matrix.append(row)
 
     return seq_ids, lower_triangular_matrix
+
+
+def visualize_tree(tree):
+    print("Your Phylogenetic Tree (ASCII Representation):")
+    Phylo.draw_ascii(tree)
+
+    # Tree is displayed graphically, if possible.
+    try:
+        plt.figure(figsize=(10, 6))
+        Phylo.draw(tree)
+        plt.show()
+    except Exception as e:
+        print(f"Visualization failed: {e}")
 
 
 def user_input():
@@ -75,14 +87,14 @@ if __name__ == "__main__":
     # Get user's FASTA file and preferred tree construction method.
     selected_fasta_file, selected_method = user_input()
 
-    # Retrieve sequences and calculate their distances.
+    # Retrieve sequences from the FASTA file and compute pairwise distances.
     sequences = parse_fasta_file(selected_fasta_file)
     sequence_ids, distance_matrix = calculate_distance_matrix(sequences)
 
     # Initialize class to be able to create the tree.
     constructor = DistanceTreeConstructor()
 
-    # _DistanceMatrix is required for DistanceTreeConstructor in Biopython.
+    # Convert the distance matrix into a format required for tree construction.
     dm = _DistanceMatrix(names=sequence_ids, matrix=distance_matrix)
 
     tree = None
@@ -94,8 +106,11 @@ if __name__ == "__main__":
         tree = constructor.nj(dm)
 
     # The resulting tree is displayed in Newick format as a textual representation.
-    print("Your phylogenetic tree in Newick format:")
+    print("Phylogenetic Tree (Newick Format):")
     print(tree.format("newick"))
+
+    # Visualize the tree in ASCII format and optionally as a graphical representation.
+    visualize_tree(tree)
 
 
 
