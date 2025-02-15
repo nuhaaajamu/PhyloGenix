@@ -76,7 +76,7 @@ def visualize_tree(tree):
 def user_input():
     construction_options = ["UPGMA", "NJ"]
     fasta_file = input("Enter the path to the FASTA file: ").strip()
-    method = input("Enter the tree construction method (UPGMA/NJ): ").strip().upper()
+    method = input("Select a tree construction algorithm (UPGMA/NJ): ").strip().upper()
     if method not in construction_options:
         print("Invalid method selected. Defaulting to UPGMA.")
         method = "UPGMA"
