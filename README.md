@@ -24,7 +24,7 @@ GCTAGCTAGCTA
 FASTA files are commonly used in bioinformatics for sequence alignment and phylogenetic analysis.
 
 ## How to Run the Program
-### 1. Clone or Download the Repository
+### 1. Clone the Repository
 ```plaintext
 git clone https://github.com/nuhaaajamu/phylogenix.git
 cd phylogenix
