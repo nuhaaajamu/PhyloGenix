@@ -39,6 +39,7 @@ FASTA files are commonly used in bioinformatics for sequence alignment and phylo
 ### How This Affects Visualization:
 - **UPGMA Trees**: Tend to look more **symmetrical**, as all taxa are assumed to have evolved at the same rate.
 - **NJ Trees**: Can appear **asymmetrical**, as taxa with different mutation rates will have branches of varying lengths.
+<p>&nbsp;</p> 
 
 ## How to Run the Program
 ### 1. Clone the Repository
