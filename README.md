@@ -13,8 +13,9 @@ This is a python based program that generates phylogenetic trees from sequence d
 ## What is a FASTA File?
 A FASTA file is a text-based format for representing nucleotide or protein sequences. Each sequence starts with a header line 
 **(beginning with >)**, followed by one or more lines of sequence data.
-```plaintext
+
 Example:
+```plaintext
 >sequence_1
 ATCGATCGATCG
 >sequence_2
