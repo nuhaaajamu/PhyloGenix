@@ -43,9 +43,8 @@ Enter the path to your FASTA file: example.fasta
 Enter the tree construction method (UPGMA/NJ): UPGMA
 ```
 ### Example Output
-When you run the provided "example_fasta.fasta" file, the program generates a phylogenetic tree based on the sequence data. 
 
-**Resulting tree visualization:**
+Resulting tree visualization using the provided "example_fasta.fasta" file:
 
 ![Generated Phylogenetic Tree](example_tree.png)
 
