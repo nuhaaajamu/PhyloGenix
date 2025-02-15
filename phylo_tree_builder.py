@@ -61,7 +61,7 @@ def calculate_distance_matrix(parsed_sequences):
 
 
 def visualize_tree(tree):
-    print("Your Phylogenetic Tree (ASCII Representation):")
+    print("Phylogenetic Tree (ASCII Representation):")
     Phylo.draw_ascii(tree)
 
     # Tree is displayed graphically, if possible.
@@ -75,7 +75,7 @@ def visualize_tree(tree):
 
 def user_input():
     construction_options = ["UPGMA", "NJ"]
-    fasta_file = input("Enter the path to your FASTA file: ").strip()
+    fasta_file = input("Enter the path to the FASTA file: ").strip()
     method = input("Enter the tree construction method (UPGMA/NJ): ").strip().upper()
     if method not in construction_options:
         print("Invalid method selected. Defaulting to UPGMA.")
@@ -91,7 +91,6 @@ if __name__ == "__main__":
     sequences = parse_fasta_file(selected_fasta_file)
     sequence_ids, distance_matrix = calculate_distance_matrix(sequences)
 
-    # Initialize class to be able to create the tree.
     constructor = DistanceTreeConstructor()
 
     # Convert the distance matrix into a format required for tree construction.
@@ -109,7 +108,7 @@ if __name__ == "__main__":
     print("Phylogenetic Tree (Newick Format):")
     print(tree.format("newick"))
 
-    # Visualize the tree in ASCII format and optionally as a graphical representation.
+    # Visualize the tree in ASCII format and as a graphical representation.
     visualize_tree(tree)
 
 
