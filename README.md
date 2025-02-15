@@ -14,6 +14,15 @@ This is a Python based program that generates phylogenetic trees from sequence d
 A FASTA file is a text-based format for representing nucleotide or protein sequences. Each sequence starts with a header line 
 **(beginning with >)**, followed by one or more lines of sequence data.
 
+**Example Format:**
+```plaintext
+>sequence_1
+ATCGATCGATCG
+>sequence_2
+GCTAGCTAGCTA
+```
+FASTA files are commonly used in bioinformatics for sequence alignment and phylogenetic analysis.
+
 ## UPGMA vs. Neighbor-Joining Algorithms
 
 When constructing phylogenetic trees, different algorithms influence the structure and interpretation of evolutionary relationships. This project implements both **UPGMA (Unweighted Pair Group Method with Arithmetic Mean)** and **Neighbor-Joining (NJ)** to generate phylogenetic trees, each with distinct computational approaches and visual outcomes.  
@@ -31,15 +40,6 @@ When constructing phylogenetic trees, different algorithms influence the structu
 - **NJ Trees**: Can appear **asymmetrical**, as taxa with different mutation rates will have branches of varying lengths.
 
 By incorporating both algorithms, this project provides a broader perspective on phylogenetic tree construction, allowing for comparisons in evolutionary modeling.
-
-**Example Format:**
-```plaintext
->sequence_1
-ATCGATCGATCG
->sequence_2
-GCTAGCTAGCTA
-```
-FASTA files are commonly used in bioinformatics for sequence alignment and phylogenetic analysis.
 
 ## How to Run the Program
 ### 1. Clone the Repository
