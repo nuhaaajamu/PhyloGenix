@@ -92,17 +92,14 @@ Example trees generated using the **example_file.fasta** file in the repository
 - Python 3.7+
 - Biopython 
 - Matplotlib
-<p>&nbsp;</p>
 
 ## Future Improvements
 - Support for additional phylogenetic algorithms
 - Integration with multiple sequence alignment tools
 - Enhanced interactive visualization options
-<p>&nbsp;</p>
 
 ## Contributions
 Contributions are more than welcome! If this project is something that has sparked your interest, feel free to submit issues, feature requests, or pull requests.
-<p>&nbsp;</p>
 
 ## License
 This is an open-source project and is licensed under the MIT License.
