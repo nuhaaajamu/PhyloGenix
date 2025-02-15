@@ -31,7 +31,7 @@ pip install biopython matplotlib
 ### 1. Running the Program
 Run the script and provide user input when prompted:
 ```plaintext
-python phlogenix.py
+python phylo_tree_builder.py
 ```
 ### 2. User Input
 - Enter the path to your FASTA file
@@ -40,12 +40,19 @@ python phlogenix.py
 ### Example Usage:
 ```plaintext
 Enter the path to your FASTA file: example.fasta
-Enter the tree construction method (UPGMA/NJ): NJ
+Enter the tree construction method (UPGMA/NJ): UPGMA
 ```
-### Output
-- Displays the phylogenetic tree in ASCII format
-- Outputs the tree in Newick format
-- Visualizes the tree graphically
+### Example Output
+When you run the provided "example_fasta.fasta" file, the program generates a phylogenetic tree based on the sequence data. 
+
+Resulting tree visualization:
+
+![Generated Phylogenetic Tree](example_tree.png)
+
+To see this output yourself, run:
+```bash
+python philo_tree_builder.py example_fasta.fasta
+```
 
 ## Dependencies
 - Python 3.7+
