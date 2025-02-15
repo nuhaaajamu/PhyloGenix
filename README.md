@@ -24,8 +24,8 @@ FASTA files are commonly used in bioinformatics for sequence alignment and phylo
 ## How to Run the Program
 ### 1. Clone or Download the Repository
 ```plaintext
-git clone https://github.com/yourusername/yourrepo.git
-cd yourrepo
+git clone https://github.com/nuhaaajamu/phylogenix.git
+cd phylogenix
 ```
 ### 2. Install Dependencies
 Ensure you have Python installed, then install required libraries:
