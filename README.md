@@ -9,7 +9,6 @@ PhyloGenix is a python based program that generates phylogenetic trees from sequ
 - Supports tree construction via UPGMA and Neighbor-Joining algorithms
 - Provides ASCII and graphical visualizations of the phylogenetic tree
 - Outputs the tree in Newick format for further analysis
-<br><br>
 
 ## What is a FASTA File?
 A FASTA file is a text-based format for representing nucleotide or protein sequences. Each sequence starts with a header line (beginning with >), followed by one or more lines of sequence data.
@@ -20,14 +19,12 @@ ATCGATCGATCG
 GCTAGCTAGCTA
 ```
 FASTA files are commonly used in bioinformatics for sequence alignment and phylogenetic analysis.
-<br><br>
 
 ## Installation 
 Ensure you have Python installed along with the required dependencies:
 ```plaintext
 pip install biopython matplotlib
 ```
-
 
 ## How to Use
 ### 1. Running the Program
@@ -48,23 +45,19 @@ Enter the tree construction method (UPGMA/NJ): NJ
 - Displays the phylogenetic tree in ASCII format
 - Outputs the tree in Newick format
 - Visualizes the tree graphically
-<br><br>
 
 ## Dependencies
 - Python 3.7+
 - Biopythonif 
 - Matplotlib
-<br><br>
 
 ## Future Improvements
 - Support for additional phylogenetic algorithms
 - Integration with multiple sequence alignment tools
 - Enhanced interactive visualization options
-<br><br>
 
 ## Contributions
 Contributions are more than welcome! If this project is something that has sparked your interest, feel free to submit issues, feature requests, or pull requests.
-<br><br>
 
 ## License
 This is an open-source project and is licensed under the MIT License.
