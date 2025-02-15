@@ -22,6 +22,7 @@ ATCGATCGATCG
 GCTAGCTAGCTA
 ```
 FASTA files are commonly used in bioinformatics for sequence alignment and phylogenetic analysis.
+<br><br>
 
 ## UPGMA vs. Neighbor-Joining Algorithms
 
