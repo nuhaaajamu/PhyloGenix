@@ -52,6 +52,7 @@ Enter the tree construction method (UPGMA/NJ): UPGMA
 ## Visualization Using FASTA File Example
 
 Example trees generated using the "example_file.fasta" file in the repository 
+<br><br>
 
 <p align="center"><strong>UPGMA Algorithm Tree Construction</strong></p>
 
@@ -59,7 +60,7 @@ Example trees generated using the "example_file.fasta" file in the repository
   <img src="example_tree_UPGMA.png" alt="Generated Phylogenetic Tree" width="60%">
 </p>
 
-<br>
+<br><br>
 
 <p align="center"><strong>Neighbor-Joining Algorithm Tree Construction</strong></p>
 
