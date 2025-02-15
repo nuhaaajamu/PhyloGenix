@@ -34,7 +34,6 @@ When constructing phylogenetic trees, different algorithms influence the structu
 | **Tree Type**     | Produces an **ultrametric tree**, where all leaf nodes are equidistant from the root. | Produces an **additive tree**, where branch lengths reflect evolutionary distance. |
 | **Accuracy**      | Works best for **data with equal mutation rates** across lineages. | More flexible and accurate for **real-world biological data** with different mutation rates. |
 | **Visualization** | The tree appears more **balanced and uniform** due to the equal evolutionary rates assumption. | The tree may appear **asymmetric**, reflecting varying rates of evolution across species. |
-<br><br>
 
 ### How This Affects Visualization:
 - **UPGMA Trees**: Tend to look more **symmetrical**, as all taxa are assumed to have evolved at the same rate.
