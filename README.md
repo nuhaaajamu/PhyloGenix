@@ -45,7 +45,7 @@ FASTA files are commonly used in bioinformatics for sequence alignment and phylo
 
 ### Newick Format  
 
-The **Newick format** is a standard text-based notation for representing phylogenetic trees. It expresses evolutionary relationships using a **nested, parenthetical format** where taxa are enclosed in parentheses and branch lengths are represented as numbers.  
+The is a standard text-based notation for representing phylogenetic trees. It expresses evolutionary relationships using a **nested, parenthetical format** where taxa are enclosed in parentheses and branch lengths are represented as numbers.  
 
 #### **Example Format:**  
 ```plaintext
