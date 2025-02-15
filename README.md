@@ -30,7 +30,7 @@ git clone https://github.com/nuhaaajamu/phylogenix.git
 cd phylogenix
 ```
 ### 2. Install Dependencies
-Ensure you have Python installed, then install required libraries:
+Ensure you have Python (version 3.7+) installed, then install these required libraries:
 ```plaintext
 pip install biopython matplotlib
 ```
