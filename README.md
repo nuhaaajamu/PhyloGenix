@@ -25,10 +25,8 @@ FASTA files are commonly used in bioinformatics for sequence alignment and phylo
 
 ## UPGMA vs. Neighbor-Joining Algorithms
 
-When constructing phylogenetic trees, different algorithms influence the structure and interpretation of evolutionary relationships. This project implements both **UPGMA (Unweighted Pair Group Method with Arithmetic Mean)** and **Neighbor-Joining (NJ)** to generate phylogenetic trees, each with distinct computational approaches and visual outcomes.  
-
 ### Key Differences:
-| Feature            | UPGMA                              | Neighbor-Joining (NJ) |
+| Feature            | Unwighted Pair Group Method with Arithmetic Mean (UPGMA)                              | Neighbor-Joining (NJ) |
 |--------------------|----------------------------------|----------------------|
 | **Methodology**   | Assumes a **molecular clock**, meaning all lineages evolve at a constant rate. | Does **not** assume a molecular clock, allowing for varying rates of evolution. |
 | **Tree Type**     | Produces an **ultrametric tree**, where all leaf nodes are equidistant from the root. | Produces an **additive tree**, where branch lengths reflect evolutionary distance. |
@@ -38,8 +36,6 @@ When constructing phylogenetic trees, different algorithms influence the structu
 ### How This Affects Visualization:
 - **UPGMA Trees**: Tend to look more **symmetrical**, as all taxa are assumed to have evolved at the same rate.
 - **NJ Trees**: Can appear **asymmetrical**, as taxa with different mutation rates will have branches of varying lengths.
-
-By incorporating both algorithms, this project provides a broader perspective on phylogenetic tree construction, allowing for comparisons in evolutionary modeling.
 
 ## How to Run the Program
 ### 1. Clone the Repository
