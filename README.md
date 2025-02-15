@@ -50,7 +50,7 @@ Tree visualization using the provided "example_fasta.fasta" file:
 
 To see this output yourself, run:
 ```bash
-python philo_tree_builder.py example_fasta.fasta
+python phylo_tree_builder.py example_fasta.fasta
 ```
 
 ## Dependencies
