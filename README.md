@@ -53,16 +53,19 @@ Enter the tree construction method (UPGMA/NJ): UPGMA
 
 Example trees generated using the "example_file.fasta" file in the repository 
 
-<h1 align="center">**UPGMA Algorithm Tree Construction**</h1>
-<br><br>
+<h1 align="center">UPGMA Algorithm Tree Construction</h1>
 
-![Generated Phylogenetic Tree](example_tree_UPGMA.png)
-<br><br>
+<p align="center">
+  <img src="example_tree_UPGMA.png" alt="Generated Phylogenetic Tree" width="60%">
+</p>
 
-<h1 align="center">**Neighbor-Joining Algorithm Tree Construction**</h1>
-<br><br>
+<br>
 
-![Generated Phylogenetic Tree](example_tree_NJ.png)
+<h1 align="center">Neighbor-Joining Algorithm Tree Construction</h1>
+
+<p align="center">
+  <img src="example_tree_NJ.png" alt="Generated Phylogenetic Tree" width="60%">
+</p>
 
 ## Dependencies
 - Python 3.7+
