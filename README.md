@@ -1,6 +1,6 @@
-# PhyloGenix 🧬: Phylogenetic Tree Generator 
+#Phylogenetic Tree Generator 🧬
 
-This is a Python based program that generates phylogenetic trees from sequence data in FASTA format. It leverages sequence alignment and evolutionary distance calculations to construct trees using UPGMA and Neighbor-Joining algorithm methods.
+PhyloGenix is a Python based program that generates phylogenetic trees from sequence data in FASTA format. It leverages sequence alignment and evolutionary distance calculations to construct trees using UPGMA and Neighbor-Joining algorithm methods.
 <br><br>
 
 ## Features
