@@ -27,7 +27,6 @@ Ensure you have Python installed along with the required dependencies:
 ```plaintext
 pip install biopython matplotlib
 ```
-<br><br>
 
 ## How to Use
 ### 1. Running the Program
