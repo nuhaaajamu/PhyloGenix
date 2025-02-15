@@ -48,7 +48,7 @@ Enter the tree construction method (UPGMA/NJ): NJ
 
 ## Dependencies
 - Python 3.7+
-- Biopythonif 
+- Biopython 
 - Matplotlib
 
 ## Future Improvements
