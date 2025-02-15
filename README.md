@@ -21,37 +21,37 @@ GCTAGCTAGCTA
 ```
 FASTA files are commonly used in bioinformatics for sequence alignment and phylogenetic analysis.
 
-## Installation 
-Ensure you have Python installed along with the required dependencies:
+## How to Run the Program
+### 1. Clone or Download the Repository
+```plaintext
+git clone https://github.com/yourusername/yourrepo.git
+cd yourrepo
+```
+### 2. Install Dependencies
+Ensure you have Python installed, then install required libraries:
 ```plaintext
 pip install biopython matplotlib
 ```
-
-## How to Use
-### 1. Running the Program
+### 3. Run Program
 Run the script and provide user input when prompted:
 ```plaintext
 python phylo_tree_builder.py
 ```
-### 2. User Input
+### 4. User Input
 - Enter the path to your FASTA file
 - Choose a tree construction method: UPGMA or NJ (Neighbor-Joining)
-  
+
 ### Example Usage:
 ```plaintext
-Enter the path to your FASTA file: example.fasta
+Enter the path to your FASTA file: file_name.fasta
 Enter the tree construction method (UPGMA/NJ): UPGMA
 ```
-### Example Output
 
-Tree visualization using the provided "example_fasta.fasta" file:
+## Visualization Using FASTA File Example
+
+This is an example tree that is generated using the "example_file.fasta" file in the repository
 
 ![Generated Phylogenetic Tree](example_tree.png)
-
-To see this output yourself, run:
-```bash
-python phylo_tree_builder.py example_fasta.fasta
-```
 
 ## Dependencies
 - Python 3.7+
