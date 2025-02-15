@@ -9,6 +9,7 @@ This is a Python based program that generates phylogenetic trees from sequence d
 - Supports tree construction via UPGMA and Neighbor-Joining algorithms
 - Provides ASCII and graphical visualizations of the phylogenetic tree
 - Outputs the tree in Newick format for further analysis
+<p>&nbsp;</p> <p>&nbsp;</p>
 
 ## What is a FASTA File?
 A FASTA file is a text-based format for representing nucleotide or protein sequences. Each sequence starts with a header line 
@@ -33,6 +34,7 @@ FASTA files are commonly used in bioinformatics for sequence alignment and phylo
 | **Tree Type**     | Produces an **ultrametric tree**, where all leaf nodes are equidistant from the root. | Produces an **additive tree**, where branch lengths reflect evolutionary distance. |
 | **Accuracy**      | Works best for **data with equal mutation rates** across lineages. | More flexible and accurate for **real-world biological data** with different mutation rates. |
 | **Visualization** | The tree appears more **balanced and uniform** due to the equal evolutionary rates assumption. | The tree may appear **asymmetric**, reflecting varying rates of evolution across species. |
+<p>&nbsp;</p> <p>&nbsp;</p>
 
 ### How This Affects Visualization:
 - **UPGMA Trees**: Tend to look more **symmetrical**, as all taxa are assumed to have evolved at the same rate.
