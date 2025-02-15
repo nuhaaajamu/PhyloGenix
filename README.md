@@ -1,6 +1,6 @@
 # PhyloGenix: Phylogenetic Tree Generator
 
-PhyloGenix is a python based program that generates phylogenetic trees from sequence data in FASTA format. It leverages sequence alignment and evolutionary distance calculations to construct trees using UPGMA and Neighbor-Joining methods.
+This is a python based program that generates phylogenetic trees from sequence data in FASTA format. It leverages sequence alignment and evolutionary distance calculations to construct trees using UPGMA and Neighbor-Joining methods.
 <br><br>
 
 ## Features
@@ -13,6 +13,8 @@ PhyloGenix is a python based program that generates phylogenetic trees from sequ
 ## What is a FASTA File?
 A FASTA file is a text-based format for representing nucleotide or protein sequences. Each sequence starts with a header line 
 **(beginning with >)**, followed by one or more lines of sequence data.
+
+**Example Format:**
 ```plaintext
 >sequence_1
 ATCGATCGATCG
@@ -21,31 +23,37 @@ GCTAGCTAGCTA
 ```
 FASTA files are commonly used in bioinformatics for sequence alignment and phylogenetic analysis.
 
-## Installation 
-Ensure you have Python installed along with the required dependencies:
+## How to Run the Program
+### 1. Clone the Repository
+```plaintext
+git clone https://github.com/nuhaaajamu/phylogenix.git
+cd phylogenix
+```
+### 2. Install Dependencies
+Ensure you have Python (version 3.7+) installed, then install these required libraries:
 ```plaintext
 pip install biopython matplotlib
 ```
-
-## How to Use
-### 1. Running the Program
+### 3. Run Program
 Run the script and provide user input when prompted:
 ```plaintext
-python phlogenix.py
+python phylo_tree_builder.py
 ```
-### 2. User Input
+### 4. User Input
 - Enter the path to your FASTA file
 - Choose a tree construction method: UPGMA or NJ (Neighbor-Joining)
-  
+
 ### Example Usage:
 ```plaintext
-Enter the path to your FASTA file: example.fasta
-Enter the tree construction method (UPGMA/NJ): NJ
+Enter the path to your FASTA file: file_name.fasta
+Enter the tree construction method (UPGMA/NJ): UPGMA
 ```
-### Output
-- Displays the phylogenetic tree in ASCII format
-- Outputs the tree in Newick format
-- Visualizes the tree graphically
+
+## Visualization Using FASTA File Example
+
+This is an example tree that is generated using the "example_file.fasta" file in the repository and UPGMA algorithm
+
+![Generated Phylogenetic Tree](example_tree.png)
 
 ## Dependencies
 - Python 3.7+
