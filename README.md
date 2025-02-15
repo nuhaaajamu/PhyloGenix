@@ -27,6 +27,8 @@ Ensure you have Python installed along with the required dependencies:
 ```plaintext
 pip install biopython matplotlib
 ```
+<br><br>
+
 ## How to Use
 ### 1. Running the Program
 Run the script and provide user input when prompted:
@@ -46,19 +48,23 @@ Enter the tree construction method (UPGMA/NJ): NJ
 - Displays the phylogenetic tree in ASCII format
 - Outputs the tree in Newick format
 - Visualizes the tree graphically
+<br><br>
 
 ## Dependencies
 - Python 3.7+
 - Biopythonif 
 - Matplotlib
-  
+<br><br>
+
 ## Future Improvements
 - Support for additional phylogenetic algorithms
 - Integration with multiple sequence alignment tools
 - Enhanced interactive visualization options
+<br><br>
 
 ## Contributions
 Contributions are more than welcome! If this project is something that has sparked your interest, feel free to submit issues, feature requests, or pull requests.
+<br><br>
 
 ## License
 This is an open-source project and is licensed under the MIT License.
