@@ -49,7 +49,7 @@ Enter the tree construction method (UPGMA/NJ): UPGMA
 
 ## Visualization Using FASTA File Example
 
-This is an example tree that is generated using the "example_file.fasta" file in the repository
+This is an example tree that is generated using the "example_file.fasta" file in the repository and UPGMA algorithm
 
 ![Generated Phylogenetic Tree](example_tree.png)
 
