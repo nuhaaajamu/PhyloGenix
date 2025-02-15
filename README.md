@@ -44,7 +44,7 @@ Enter the tree construction method (UPGMA/NJ): UPGMA
 ```
 ### Example Output
 
-Resulting tree visualization using the provided "example_fasta.fasta" file:
+Tree visualization using the provided "example_fasta.fasta" file:
 
 ![Generated Phylogenetic Tree](example_tree.png)
 
