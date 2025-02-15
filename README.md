@@ -53,10 +53,10 @@ Enter the tree construction method (UPGMA/NJ): UPGMA
 
 Example trees generated using the "example_file.fasta" file in the repository 
 
-**UPGMA Algorithm Tree Construction**
+**(UPGMA Algorithm Tree Construction)**
 ![Generated Phylogenetic Tree](example_tree_UPGMA.png)
 
-**Neighbor-Joining Algorithm Tree Contstruction**
+**(Neighbor-Joining Algorithm Tree Contstruction)**
 ![Generated Phylogenetic Tree](example_tree_NJ.png)
 
 ## Dependencies
