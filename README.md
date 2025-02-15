@@ -1,6 +1,4 @@
 # PhyloGenix: Phylogenetic Tree Generator
-<br><br>
-
 ## Overview
 PhyloGenix is a python based program that generates phylogenetic trees from sequence data in FASTA format. It leverages sequence alignment and evolutionary distance calculations to construct trees using UPGMA and Neighbor-Joining methods.
 <br><br>
@@ -30,48 +28,37 @@ Ensure you have Python installed along with the required dependencies:
 pip install biopython matplotlib
 ```
 ## How to Use
-<br><br>
-
 ### 1. Running the Program
 Run the script and provide user input when prompted:
 ```plaintext
 python phlogenix.py
 ```
-<br><br>
-
 ### 2. User Input
 - Enter the path to your FASTA file
 - Choose a tree construction method: UPGMA or NJ (Neighbor-Joining)
-<br><br>
-
+  
 ### Example Usage:
 ```plaintext
 Enter the path to your FASTA file: example.fasta
 Enter the tree construction method (UPGMA/NJ): NJ
 ```
-<br><br>
-
-#### Output
+### Output
 - Displays the phylogenetic tree in ASCII format
 - Outputs the tree in Newick format
 - Visualizes the tree graphically
-<br><br>
 
 ## Dependencies
 - Python 3.7+
 - Biopythonif 
 - Matplotlib
-<br><br>
-
+  
 ## Future Improvements
 - Support for additional phylogenetic algorithms
 - Integration with multiple sequence alignment tools
 - Enhanced interactive visualization options
-<br><br>
 
 ## Contributions
 Contributions are more than welcome! If this project is something that has sparked your interest, feel free to submit issues, feature requests, or pull requests.
-<br><br>
 
 ## License
 This is an open-source project and is licensed under the MIT License.
