@@ -66,6 +66,7 @@ python phylo_tree_builder.py
 Enter the path to your FASTA file: file_name.fasta
 Enter the tree construction method (UPGMA/NJ): UPGMA
 ```
+<p>&nbsp;</p> 
 
 ## Visualization Using FASTA File Example
 
@@ -85,6 +86,7 @@ Example trees generated using the **example_file.fasta** file in the repository
 <p align="center">
   <img src="example_tree_NJ.png" alt="Generated Phylogenetic Tree" width="60%">
 </p>
+<p>&nbsp;</p> 
 
 ## Dependencies
 - Python 3.7+
