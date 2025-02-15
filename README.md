@@ -12,7 +12,7 @@ PhyloGenix is a python based program that generates phylogenetic trees from sequ
 
 ## What is a FASTA File?
 A FASTA file is a text-based format for representing nucleotide or protein sequences. Each sequence starts with a header line 
-(beginning with >), followed by one or more lines of sequence data.
+**(beginning with >)**, followed by one or more lines of sequence data.
 ```plaintext
 >sequence_1
 ATCGATCGATCG
