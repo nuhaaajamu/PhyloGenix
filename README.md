@@ -51,6 +51,12 @@ The **Newick format** is a standard text-based notation for representing phyloge
 ```plaintext
 (A:0.1,B:0.2,(C:0.3,D:0.4):0.5);
 ```
+In this example:
+- A and B share a common ancestor, with branch lengths 0.1 and 0.2.
+- C and D share a common ancestor (nested inside parentheses), with branch lengths 0.3 and 0.4.
+- The root node connects all branches at a distance of 0.5.
+  
+Newick format is widely used in phylogenetics for storing and exchanging tree structures across different bioinformatics tools.
 <p>&nbsp;</p> 
 
 ## How to Run the Program
