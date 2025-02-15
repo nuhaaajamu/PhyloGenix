@@ -28,6 +28,7 @@ Ensure you have Python installed along with the required dependencies:
 pip install biopython matplotlib
 ```
 
+
 ## How to Use
 ### 1. Running the Program
 Run the script and provide user input when prompted:
