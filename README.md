@@ -11,7 +11,9 @@ This is a Python based program that generates phylogenetic trees from sequence d
 - Outputs the tree in **Newick** format for further analysis
 <p>&nbsp;</p> 
 
-## What is a FASTA File?
+## Understanding the Methods Behind the Program
+
+### What is a FASTA File?
 A FASTA file is a text-based format for representing nucleotide or protein sequences. Each sequence starts with a header line 
 **(beginning with >)**, followed by one or more lines of sequence data.
 
@@ -25,9 +27,9 @@ GCTAGCTAGCTA
 FASTA files are commonly used in bioinformatics for sequence alignment and phylogenetic analysis.
 <p>&nbsp;</p> 
 
-## UPGMA vs. Neighbor-Joining Algorithms
+### UPGMA vs. Neighbor-Joining Algorithms
 
-### Key Differences:
+#### Key Differences:
 | Feature            | Unwighted Pair Group Method with Arithmetic Mean (UPGMA)                              | Neighbor-Joining (NJ) |
 |--------------------|----------------------------------|----------------------|
 | **Methodology**   | Assumes a **molecular clock**, meaning all lineages evolve at a constant rate. | Does **not** assume a molecular clock, allowing for varying rates of evolution. |
@@ -36,9 +38,19 @@ FASTA files are commonly used in bioinformatics for sequence alignment and phylo
 | **Visualization** | The tree appears more **balanced and uniform** due to the equal evolutionary rates assumption. | The tree may appear **asymmetric**, reflecting varying rates of evolution across species. |
 <p>&nbsp;</p>
 
-### How This Affects Visualization:
+#### How This Affects Visualization:
 - **UPGMA Trees**: Tend to look more **symmetrical**, as all taxa are assumed to have evolved at the same rate.
 - **NJ Trees**: Can appear **asymmetrical**, as taxa with different mutation rates will have branches of varying lengths.
+<p>&nbsp;</p> 
+
+### Newick (NHX) Format  
+
+The **Newick format** is a standard text-based notation for representing phylogenetic trees. It expresses evolutionary relationships using a **nested, parenthetical format** where taxa are enclosed in parentheses and branch lengths are represented as numbers.  
+
+#### **Example Format:**  
+```plaintext
+(A:0.1,B:0.2,(C:0.3,D:0.4):0.5);
+```
 <p>&nbsp;</p> 
 
 ## How to Run the Program
