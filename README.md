@@ -4,11 +4,11 @@ This is a Python based program that generates phylogenetic trees from sequence d
 <br><br>
 
 ## Features
-- Parses sequence data from FASTA files
-- Computes pairwise evolutionary distances using sequence alignment
-- Supports tree construction via UPGMA and Neighbor-Joining algorithms
-- Provides ASCII and graphical visualizations of the phylogenetic tree
-- Outputs the tree in Newick format for further analysis
+- Parses sequence data from **FASTA** files
+- Computes **pairwise evolutionary distances** using sequence alignment
+- Supports tree construction via **UPGMA** and **Neighbor-Joining** algorithms
+- Provides **ASCII** and **graphical** visualizations of the phylogenetic tree
+- Outputs the tree in **Newick** format for further analysis
 <p>&nbsp;</p> 
 
 ## What is a FASTA File?
