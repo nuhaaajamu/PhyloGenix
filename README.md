@@ -82,7 +82,7 @@ python phylo_tree_builder.py
 ### Example Usage:
 ```plaintext
 Enter the path to your FASTA file: file_name.fasta
-Enter the tree construction method (UPGMA/NJ): UPGMA
+Select a tree construction algorithm (UPGMA/NJ): UPGMA
 ```
 <p>&nbsp;</p> 
 
