@@ -64,7 +64,7 @@ def visualize_tree(tree):
     print("Phylogenetic Tree (ASCII Representation):")
     Phylo.draw_ascii(tree)
 
-    # Tree is displayed graphically, if possible.
+    # If possible, tree is displayed graphically.
     try:
         plt.figure(figsize=(10, 6))
         Phylo.draw(tree)
