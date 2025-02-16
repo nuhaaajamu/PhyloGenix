@@ -39,8 +39,8 @@ FASTA files are commonly used in bioinformatics for sequence alignment and phylo
 <p>&nbsp;</p>
 
 #### How This Affects Visualization:
-- **UPGMA Trees**: Tend to look more **symmetrical**, as all taxa are assumed to have evolved at the same rate.
-- **NJ Trees**: Can appear **asymmetrical**, as taxa with different mutation rates will have branches of varying lengths.
+- **UPGMA Trees**: tend to look more **symmetrical**, as all taxa are assumed to have evolved at the same rate.
+- **NJ Trees**: can appear **asymmetrical**, as taxa with different mutation rates will have branches of varying lengths.
 <p>&nbsp;</p> 
 
 ### What is Newick Format?
