@@ -27,7 +27,7 @@ GCTAGCTAGCTA
 FASTA files are commonly used in bioinformatics for sequence alignment and phylogenetic analysis.
 <p>&nbsp;</p> 
 
-### UPGMA vs. Neighbor-Joining Algorithms
+### Purpose of Algorithms Being Used: UPGMA vs. Neighbor-Joining
 
 #### Key Differences:
 | Feature            | Unwighted Pair Group Method with Arithmetic Mean (UPGMA)                              | Neighbor-Joining (NJ) |
@@ -43,7 +43,7 @@ FASTA files are commonly used in bioinformatics for sequence alignment and phylo
 - **NJ Trees**: Can appear **asymmetrical**, as taxa with different mutation rates will have branches of varying lengths.
 <p>&nbsp;</p> 
 
-### Newick Format  
+### What is Newick Format?
 
 The is a standard text-based notation for representing phylogenetic trees. It expresses evolutionary relationships using a **nested, parenthetical format** where taxa are enclosed in parentheses and branch lengths are represented as numbers.  
 
