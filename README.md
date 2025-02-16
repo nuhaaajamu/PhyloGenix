@@ -28,6 +28,7 @@ FASTA files are commonly used in bioinformatics for sequence alignment and phylo
 <p>&nbsp;</p> 
 
 ### Purpose of Algorithms Being Used: UPGMA vs. NJ
+<p>&nbsp;</p> 
 
 | Feature            | Unwighted Pair Group Method with Arithmetic Mean (UPGMA)                              | Neighbor-Joining (NJ) |
 |--------------------|----------------------------------|----------------------|
