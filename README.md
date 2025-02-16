@@ -75,6 +75,8 @@ Run the script and provide user input when prompted:
 ```plaintext
 python phylo_tree_builder.py
 ```
+<p>&nbsp;</p> 
+
 ### Example Usage:
 ```plaintext
 Enter the path to your FASTA file: file_name.fasta
