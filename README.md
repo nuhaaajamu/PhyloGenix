@@ -77,13 +77,6 @@ python phylo_tree_builder.py
 ```
 <p>&nbsp;</p> 
 
-### Example Usage:
-```plaintext
-Enter the path to your FASTA file: file_name.fasta
-Select a tree construction algorithm (UPGMA/NJ): UPGMA
-```
-<p>&nbsp;</p> 
-
 ## Visualization Using FASTA File Example
 
 Example trees generated using the **example_file.fasta** file in the repository 
