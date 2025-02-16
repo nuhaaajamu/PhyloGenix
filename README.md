@@ -75,10 +75,6 @@ Run the script and provide user input when prompted:
 ```plaintext
 python phylo_tree_builder.py
 ```
-### 4. User Input
-- Enter the path to your FASTA file
-- Choose a tree construction method: UPGMA or NJ (Neighbor-Joining)
-
 ### Example Usage:
 ```plaintext
 Enter the path to your FASTA file: file_name.fasta
