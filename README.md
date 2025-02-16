@@ -27,9 +27,8 @@ GCTAGCTAGCTA
 FASTA files are commonly used in bioinformatics for sequence alignment and phylogenetic analysis.
 <p>&nbsp;</p> 
 
-### Purpose of Algorithms Being Used: UPGMA vs. Neighbor-Joining
+### Purpose of Algorithms Being Used: UPGMA vs. NJ
 
-#### Key Differences:
 | Feature            | Unwighted Pair Group Method with Arithmetic Mean (UPGMA)                              | Neighbor-Joining (NJ) |
 |--------------------|----------------------------------|----------------------|
 | **Methodology**   | Assumes a **molecular clock**, meaning all lineages evolve at a constant rate. | Does **not** assume a molecular clock, allowing for varying rates of evolution. |
