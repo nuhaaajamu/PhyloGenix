@@ -65,7 +65,7 @@ Newick format is widely used in phylogenetics for storing and exchanging tree st
 git clone https://github.com/nuhaaajamu/phylogenix.git
 cd phylogenix
 ```
-### 2. Install Dependencies
+### 2. Installation Requirements
 Ensure you have Python (version 3.7+) installed, then install these required libraries:
 ```plaintext
 pip install biopython matplotlib
@@ -106,7 +106,7 @@ Example trees generated using the **example_file.fasta** file in the repository
 </p>
 <p>&nbsp;</p> 
 
-## Dependencies
+## Requirements
 - Python 3.7+
 - Biopython 
 - Matplotlib
