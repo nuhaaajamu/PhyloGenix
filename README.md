@@ -1,4 +1,5 @@
 > This project was created as an early Python learning exercise while exploring foundational programming and bioinformatics concepts.
+<br><br>
 
 # Phylogenetic Tree Generator 🧬
 
